@@ -59,6 +59,13 @@
   dependencies:
     assemblyscript "0.19.10"
 
+"@graphprotocol/graph-ts@^0.26.0":
+  version "0.26.0"
+  resolved "https://registry.yarnpkg.com/@graphprotocol/graph-ts/-/graph-ts-0.26.0.tgz#576f995531eebaca4374901aeaff499219e382e8"
+  integrity sha512-GW/emOJl+35MXgmIxTnUK7dJtPCaB9u5aAwoLVqJ8swogC794O92UrXMVrAJsherUriu+yI9bLMGmNPOIi60jw==
+  dependencies:
+    assemblyscript "0.19.10"
+
 "@types/connect@^3.4.33":
   version "3.4.35"
   resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.35.tgz#5fcf6ae445e4021d1fc2219a4873cc73a3bb2ad1"
@@ -1859,12 +1866,12 @@ mafmt@^7.0.0:
   dependencies:
     multiaddr "^7.3.0"
 
-matchstick-as@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/matchstick-as/-/matchstick-as-0.3.0.tgz#fb23b9bf7c797363a40c23f098d3101831d088dc"
-  integrity sha512-+nxHlchVHzvcJzcNc8WxCV5FpADVqVJwEBuaq3IvZjp29xVoe/RWpodmTvQw+Pk6bRMAPI5grdmTPjR4hGgrcw==
+matchstick-as@^0.4.2:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/matchstick-as/-/matchstick-as-0.4.3.tgz#c35aba5d4da2524d3546c25183b72ff8d0d210d3"
+  integrity sha512-0rDobz0L8ainmnBo5pPj0vPwRBdzZz8WfTLUCId/KXJyoaumrgrdicTcuj46QAguD0gOY4j8vWNonE1OR3EFzg==
   dependencies:
-    "@graphprotocol/graph-ts" "^0.24.1"
+    "@graphprotocol/graph-ts" "^0.26.0"
     assemblyscript "^0.19.20"
     wabt "1.0.24"
 
